@@ -6,19 +6,19 @@ html {
 
 @media (min-width: 576px) {
 	html {
-		font-size: 14px;
+		font-size: 24px;
 	}
 }
 
 @media (min-width: 768px) {
 	html {
-		font-size: 16px;
+		font-size: 26px;
 	}
 }
 
 @media (min-width: 992px) {
 	html {
-		font-size: 18px;
+		font-size: 28px;
 	}
 }
 
@@ -37,10 +37,10 @@ html {
 main {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 90vh;
 	justify-content: center;
 	padding: 0 30px;
-	text-align: center;
+	text-align: right;
 }
 
 main > .intro {
@@ -50,17 +50,17 @@ main > .intro {
 }
 
 main > .tagline {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	margin: 1.5rem 0;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .icons-social i {
-	padding: 10px;
+	padding: 11px;
 }
 
 .icons-social a {
-  text-decoration: none;
+  text-decoration: overline;
 }
 
 .devto {
